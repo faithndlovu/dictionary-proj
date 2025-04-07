@@ -3,7 +3,7 @@ import axios from "axios";
 import "./Dictionary.css";
 
 export default function Dictionary(){
-let [keyword, setkeyword]= useState ("");
+const [keyword, setkeyword]= useState ("");
 
 
 function handleResponse(response){
