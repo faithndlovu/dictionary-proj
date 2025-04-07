@@ -3,7 +3,7 @@ import axios from "axios";
 import "./Dictionary.css";
 
 export default function Dictionary(){
-let [keyword, setkeyword]=useState ("");
+let [keyword, setkeyword]= useState ("");
 
 
 function handleResponse(response){
@@ -13,12 +13,12 @@ function handleResponse(response){
 function search(event) {
     event.preventDefault();
 
- 
+ if (keyword){
 let apiUrl= "https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=dof43157bf3aftdf9163bbd7407de4ba";
 axios.get(apiUrl).then(handleResponse);
 }
 
- 
+}
  
  function handlekeywordChange(event){
     setkeyword(event.target.value);
@@ -26,7 +26,9 @@ axios.get(apiUrl).then(handleResponse);
     return(
         <div className="Dictionary">
             <form onSubmit={search}>
-                <input type="search" onChange={handlekeywordChange}/>
+                <input type="search" 
+                onChange={handlekeywordChange}
+                placeholder="search a word"/>
             </form>
         </div>
     );
