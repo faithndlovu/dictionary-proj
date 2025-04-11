@@ -12,12 +12,12 @@ function App() {
       </header>
       <main>
         <Dictionary defaultkeyword="sunshine"/>
-      </mains>
+      </main>
       <footer className='App-footer'>
         Coded by Faith L Ndlovu
       </footer>
     </div>
-    </div>
+</div>    
   );
 }
 
