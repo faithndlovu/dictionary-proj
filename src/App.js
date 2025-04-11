@@ -14,7 +14,7 @@ function App() {
         <Dictionary defaultkeyword="sunshine"/>
       </main>
       <footer className='App-footer'>
-        <small>this project was coded by Faith L Ndlovu and is <a href='https://github.com/faithndlovu/dictionary-proj'>open sourced on Github</a> and <a href='https://dictionaryf.netlify.app/'>hosted on Netlify</a></small>
+        <small>This project was coded by Faith L Ndlovu and is <a href='https://github.com/faithndlovu/dictionary-proj'>open sourced on Github</a> and <a href='https://dictionaryf.netlify.app/'>hosted on Netlify</a></small>
       </footer>
     </div>
 </div>    
