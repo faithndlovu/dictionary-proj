@@ -31,7 +31,7 @@ function search(keyword){
 
   function load(){
     setLoaded(true);
-    search();
+    search(keyword);
   }
 
 if (loaded){
