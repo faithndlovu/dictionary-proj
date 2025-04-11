@@ -1,12 +1,22 @@
 .Synonyms{
    margin: 20px 0 0;
    padding: 0; 
+   list-style-type: none;
+   display: flex;
+   flex-wrap: wrap;
 }
 
 .Synonyms li{
-    padding-right: 15px;
-    display: inline-block;
-    padding-right: 10px;
-    line-height: 1;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding-right: 0.5rem 1rem;
+    margin: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
 
 }
+
+.Synonyms li:hover {
+    background-color: #9670f4;
+    color: white;
+  }
