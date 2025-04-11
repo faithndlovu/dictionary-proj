@@ -21,7 +21,7 @@ function search(keyword){
 
   function handleSubmit(event) {
     event.preventDefault();
-    search();
+    search(keyword);
   }
    
 
