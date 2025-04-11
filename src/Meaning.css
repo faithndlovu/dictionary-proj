@@ -13,14 +13,3 @@ font-style: italic;
 margin-top: 10px;
 }
 
-.PartOfSpeech {
-    font-size: 16px;
-    color: teal;
-    background-color: #e0f7f7;
-    display: inline-block;
-    padding: 5px 10px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    font-weight: 600;
-  }
-  
