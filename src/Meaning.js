@@ -14,7 +14,7 @@ return (
                       <div className="definition">
                         {definition.definition}
                         </div>
-                        <br/>
+                        
                         <div className="example">
                         {definition.example}
                     </div>

@@ -14,7 +14,7 @@ function App() {
         <Dictionary defaultkeyword="sunshine"/>
       </main>
       <footer className='App-footer'>
-        Coded by Faith L Ndlovu
+        <small>Coded by Faith L Ndlovu</small>
       </footer>
     </div>
 </div>    
